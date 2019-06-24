@@ -18,6 +18,17 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@angular/*": [
+        "./node_modules/@angular/*"
+      ],
+      "gcomponents": [
+        "dist/gcomponents"
+      ],
+      "gcomponents/*": [
+        "dist/gcomponents/*"
+      ]
+    }
   }
 }
